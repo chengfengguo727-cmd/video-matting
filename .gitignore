@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Project artifacts (regenerable / large / per-user)
+models/*.pth
+workdir/
+external/
+
+# Test / sample media — don't commit user content
+*.webm
+*.mp4
+*.mov
+*.mkv
+frame*.png
+test_*.png
+test*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
